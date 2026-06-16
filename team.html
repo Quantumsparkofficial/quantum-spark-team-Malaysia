@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantum Spark Club - Malaysia Tour Team</title>
 
+    <!-- 🚀 গুগলের জন্য ব্যাকএন্ড স্কিমা কোড (JSON-LD) -->
     <script type="application/ld+json">
     [
       {
@@ -12,14 +13,28 @@
         "@type": "ProfilePage",
         "mainEntity": {
           "@type": "Person",
-          "name": "Habibur Rahman Habib",
+          "name": "MD Habibur Rahman Habib",
           "image": [
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/habibur-rahman-habib-1.jpg.png",
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/habibur-rahman-habib-2.jpg.png",
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/habibur-rahman-habib-3.jpg.jpg"
           ],
-          "description": "Team Leader at Quantum Spark Club, presenting projects in Malaysia.",
-          "affiliation": { "@type": "Organization", "name": "Quantum Spark Club" }
+          "description": "Founder of Quantum Spark & CEO-Founder of Trip Liner. Current student at Sylhet Cantonment Public School And College.",
+          "birthDate": "2008-02-20",
+          "birthPlace": {
+            "@type": "Place",
+            "name": "Sader Khala, Tahirpur, Sunamgonj, Sylhet, Bangladesh"
+          },
+          "alumniOf": [
+            { "@type": "EducationalOrganization", "name": "Sylhet Cantonment Public School And College" },
+            { "@type": "EducationalOrganization", "name": "Blue Bird High School and College" }
+          ],
+          "knowsAbout": ["Traveling", "Robotics", "Entrepreneurship"],
+          "sameAs": [
+            "https://www.facebook.com/hrhabib.sylhet.bd",
+            "https://www.instagram.com/h_habib_a",
+            "https://www.linkedin.com/in/h_habib0"
+          ]
         }
       },
       {
@@ -27,13 +42,13 @@
         "@type": "ProfilePage",
         "mainEntity": {
           "@type": "Person",
-          "name": "Musfiq",
+          "name": "Musfiqur Rahman Shaem",
           "image": [
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/musfiq-1.jpg.png",
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/musfiq-2.jpg.png",
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/musfiq-3.jpg.png"
           ],
-          "description": "2nd Leader at Quantum Spark Club, presenting projects in Malaysia.",
+          "description": "2nd Leader at Quantum Spark Club. Student at Sylhet Cantonment Public School And College.",
           "affiliation": { "@type": "Organization", "name": "Quantum Spark Club" }
         }
       },
@@ -42,13 +57,13 @@
         "@type": "ProfilePage",
         "mainEntity": {
           "@type": "Person",
-          "name": "Alfaz",
+          "name": "Alfaz Anam Nafis",
           "image": [
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/alfaz-1.jpg.png",
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/alfaz-2.jpg.png",
             "https://quantumsparkofficial.github.io/quantum-spark-team-Malaysia/alfaz-3.jpg.png"
           ],
-          "description": "3rd Leader at Quantum Spark Club, presenting projects in Malaysia.",
+          "description": "3rd Leader at Quantum Spark Club. Student at Sylhet Cantonment Public School And College.",
           "affiliation": { "@type": "Organization", "name": "Quantum Spark Club" }
         }
       }
@@ -57,52 +72,88 @@
 </head>
 <body style="font-family: Arial, sans-serif; background-color: #0d1117; color: #ffffff; margin: 0; padding: 20px;">
 
+    <!-- 🎨 ফ্রন্টএন্ড ডিজাইন -->
     <section class="team-section" style="text-align: center; padding: 50px 20px;">
         <h1 style="color: #58a6ff; margin-bottom: 5px;">Quantum Spark Club</h1>
         <p style="color: #8b949e; font-size: 18px; margin-top: 0;">Our Brilliant Team Representing the Club in Malaysia</p>
         
+        <!-- 👥 মেম্বার কার্ডগুলোর কন্টেইনার -->
         <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; margin-top: 40px;">
             
-            <div class="member-card" style="border: 1px solid #30363d; background-color: #161b22; padding: 25px; width: 280px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-                <img id="habibMainImg" src="habibur-rahman-habib-1.jpg.png" alt="Habibur Rahman Habib" style="width: 100%; height: 280px; object-fit: cover; border-radius: 8px; border: 2px solid #30363d;">
+            <!-- ১. মোঃ হাবিবুর রহমান হাবিব (Team Leader) -->
+            <div class="member-card" style="border: 1px solid #30363d; background-color: #161b22; padding: 25px; width: 320px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); text-align: left;">
+                <img id="habibMainImg" src="habibur-rahman-habib-1.jpg.png" alt="MD Habibur Rahman Habib" style="width: 100%; height: 280px; object-fit: cover; border-radius: 8px; border: 2px solid #30363d;">
                 <div style="display: flex; justify-content: center; gap: 8px; margin-top: 10px;">
                     <img src="habibur-rahman-habib-1.jpg.png" onclick="document.getElementById('habibMainImg').src='habibur-rahman-habib-1.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
                     <img src="habibur-rahman-habib-2.jpg.png" onclick="document.getElementById('habibMainImg').src='habibur-rahman-habib-2.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
                     <img src="habibur-rahman-habib-3.jpg.jpg" onclick="document.getElementById('habibMainImg').src='habibur-rahman-habib-3.jpg.jpg'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
                 </div>
-                <h3 style="margin-top: 15px; font-size: 22px; color: #c9d1d9; margin-bottom: 5px;">Habibur Rahman Habib</h3>
-                <p style="color: #58a6ff; font-weight: bold; margin-top: 0; margin-bottom: 5px;">Team Leader</p>
-                <p style="color: #8b949e; font-size: 14px; margin-top: 0;">Malaysia Project Team</p>
+                
+                <h3 style="margin-top: 15px; font-size: 20px; color: #c9d1d9; margin-bottom: 2px; text-align: center;">MD Habibur Rahman Habib</h3>
+                <p style="color: #c9d1d9; font-size: 16px; margin-top: 0; margin-bottom: 8px; text-align: center; font-weight: bold;">(মোঃ হাবিবুর রহমান হাবিব)</p>
+                <p style="color: #58a6ff; font-weight: bold; margin-top: 0; margin-bottom: 15px; text-align: center;">Team Leader & Founder</p>
+                
+                <!-- 📋 পার্সোনাল ডিটেইলস সেকশন (আপনার রিকুয়েস্ট অনুযায়ী সাজানো) -->
+                <div style="font-size: 13px; color: #8b949e; line-height: 1.6; border-top: 1px solid #30363d; padding-top: 10px;">
+                    <strong style="color: #58a6ff;">Father's Name:</strong> Alhaz M Yunus Ali<br>
+                    <strong style="color: #58a6ff;">Mother's Name:</strong> Khadiza Begum<br>
+                    <strong style="color: #58a6ff;">Date of Birth:</strong> 20 February 2008<br>
+                    <strong style="color: #58a6ff;">Birth Place:</strong> Sader Khala, Tahirpur, Sunamgonj, Sylhet<br>
+                    <strong style="color: #c9d1d9;">Institution:</strong> Sylhet Cantonment Public School And College<br>
+                    <strong style="color: #c9d1d9;">Ex-Institution:</strong> Blue Bird High School and College<br>
+                    <strong style="color: #c9d1d9;">Hobby:</strong> Traveling<br>
+                    <strong style="color: #c9d1d9;">Positions:</strong> CEO & Founder at Trip Liner, Founder at Quantum Spark
+                </div>
+
+                <!-- 🌐 সোশ্যাল মিডিয়া লিংক -->
+                <div style="display: flex; justify-content: center; gap: 15px; margin-top: 15px; font-size: 12px;">
+                    <a href="https://www.facebook.com/hrhabib.sylhet.bd" target="_blank" style="color: #58a6ff; text-decoration: none; font-weight: bold;">Facebook</a>
+                    <a href="https://www.instagram.com/h_habib_a" target="_blank" style="color: #bc1888; text-decoration: none; font-weight: bold;">Instagram</a>
+                    <a href="https://www.linkedin.com/in/h_habib0" target="_blank" style="color: #0a66c2; text-decoration: none; font-weight: bold;">LinkedIn</a>
+                </div>
             </div>
 
-            <div class="member-card" style="border: 1px solid #30363d; background-color: #161b22; padding: 25px; width: 280px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-                <img id="musfiqMainImg" src="musfiq-1.jpg.png" alt="Musfiq" style="width: 100%; height: 280px; object-fit: cover; border-radius: 8px; border: 2px solid #30363d;">
-                <div style="display: flex; justify-content: center; gap: 8px; margin-top: 10px;">
-                    <img src="musfiq-1.jpg.png" onclick="document.getElementById('musfiqMainImg').src='musfiq-1.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
-                    <img src="musfiq-2.jpg.png" onclick="document.getElementById('musfiqMainImg').src='musfiq-2.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
-                    <img src="musfiq-3.jpg.png" onclick="document.getElementById('musfiqMainImg').src='musfiq-3.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+            <!-- ২. মুশফিকুর রহমান সায়েম (2nd Leader) -->
+            <div class="member-card" style="border: 1px solid #30363d; background-color: #161b22; padding: 25px; width: 320px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <img id="musfiqMainImg" src="musfiq-1.jpg.png" alt="Musfiqur Rahman Shaem" style="width: 100%; height: 280px; object-fit: cover; border-radius: 8px; border: 2px solid #30363d;">
+                    <div style="display: flex; justify-content: center; gap: 8px; margin-top: 10px;">
+                        <img src="musfiq-1.jpg.png" onclick="document.getElementById('musfiqMainImg').src='musfiq-1.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+                        <img src="musfiq-2.jpg.png" onclick="document.getElementById('musfiqMainImg').src='musfiq-2.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+                        <img src="musfiq-3.jpg.png" onclick="document.getElementById('musfiqMainImg').src='musfiq-3.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+                    </div>
+                    <h3 style="margin-top: 15px; font-size: 20px; color: #c9d1d9; margin-bottom: 5px; text-align: center;">Musfiqur Rahman Shaem</h3>
+                    <p style="color: #58a6ff; font-weight: bold; margin-top: 0; margin-bottom: 15px; text-align: center;">2nd Leader</p>
                 </div>
-                <h3 style="margin-top: 15px; font-size: 22px; color: #c9d1d9; margin-bottom: 5px;">Musfiq</h3>
-                <p style="color: #58a6ff; font-weight: bold; margin-top: 0; margin-bottom: 5px;">2nd Leader</p>
-                <p style="color: #8b949e; font-size: 14px; margin-top: 0;">Malaysia Project Team</p>
+                <div style="font-size: 13px; color: #8b949e; line-height: 1.6; border-top: 1px solid #30363d; padding-top: 10px;">
+                    <strong style="color: #c9d1d9;">Institution:</strong> Sylhet Cantonment Public School And College<br>
+                    <strong style="color: #8b949e;">Project Role:</strong> Malaysia Project Developer
+                </div>
             </div>
 
-            <div class="member-card" style="border: 1px solid #30363d; background-color: #161b22; padding: 25px; width: 280px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-                <img id="alfazMainImg" src="alfaz-1.jpg.png" alt="Alfaz" style="width: 100%; height: 280px; object-fit: cover; border-radius: 8px; border: 2px solid #30363d;">
-                <div style="display: flex; justify-content: center; gap: 8px; margin-top: 10px;">
-                    <img src="alfaz-1.jpg.png" onclick="document.getElementById('alfazMainImg').src='alfaz-1.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
-                    <img src="alfaz-2.jpg.png" onclick="document.getElementById('alfazMainImg').src='alfaz-2.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
-                    <img src="alfaz-3.jpg.png" onclick="document.getElementById('alfazMainImg').src='alfaz-3.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+            <!-- ৩. আলফাজ আনাম নাফিস (3rd Leader) -->
+            <div class="member-card" style="border: 1px solid #30363d; background-color: #161b22; padding: 25px; width: 320px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); text-align: left; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <img id="alfazMainImg" src="alfaz-1.jpg.png" alt="Alfaz Anam Nafis" style="width: 100%; height: 280px; object-fit: cover; border-radius: 8px; border: 2px solid #30363d;">
+                    <div style="display: flex; justify-content: center; gap: 8px; margin-top: 10px;">
+                        <img src="alfaz-1.jpg.png" onclick="document.getElementById('alfazMainImg').src='alfaz-1.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+                        <img src="alfaz-2.jpg.png" onclick="document.getElementById('alfazMainImg').src='alfaz-2.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+                        <img src="alfaz-3.jpg.png" onclick="document.getElementById('alfazMainImg').src='alfaz-3.jpg.png'" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px; cursor: pointer; border: 1px solid #30363d;">
+                    </div>
+                    <h3 style="margin-top: 15px; font-size: 20px; color: #c9d1d9; margin-bottom: 5px; text-align: center;">Alfaz Anam Nafis</h3>
+                    <p style="color: #58a6ff; font-weight: bold; margin-top: 0; margin-bottom: 15px; text-align: center;">3rd Leader</p>
                 </div>
-                <h3 style="margin-top: 15px; font-size: 22px; color: #c9d1d9; margin-bottom: 5px;">Alfaz</h3>
-                <p style="color: #58a6ff; font-weight: bold; margin-top: 0; margin-bottom: 5px;">3rd Leader</p>
-                <p style="color: #8b949e; font-size: 14px; margin-top: 0;">Malaysia Project Team</p>
+                <div style="font-size: 13px; color: #8b949e; line-height: 1.6; border-top: 1px solid #30363d; padding-top: 10px;">
+                    <strong style="color: #c9d1d9;">Institution:</strong> Sylhet Cantonment Public School And College<br>
+                    <strong style="color: #8b949e;">Project Role:</strong> Malaysia Project Developer
+                </div>
             </div>
 
         </div>
 
         <hr style="border: 0; border-top: 1px solid #30363d; margin: 60px auto; width: 80%;">
 
+        <!-- 📸 ফুল টিম গ্রুপ ছবি সেকশন -->
         <div style="text-align: center; margin-top: 40px; padding: 20px;">
             <h2 style="color: #58a6ff; margin-bottom: 10px;">Quantum Spark Malaysia Tour - Full Team</h2>
             <p style="color: #8b949e; margin-bottom: 30px;">The complete research and development group for the autonomous project.</p>
